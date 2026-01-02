@@ -7440,6 +7440,4 @@ local Library = {}
     end
 
 
-Window:Init()
-getgenv().Library = Library
 return Library
