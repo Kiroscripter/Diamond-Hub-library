@@ -7439,4 +7439,7 @@ local Library = {}
         return Page
     end
 
+
+Window:Init()
+getgenv().Library = Library
 return Library
